@@ -1,0 +1,13 @@
+<!-- templates/order_confirmation.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Confirmation</title>
+</head>
+<body>
+    <h1>주문이 완료되었습니다!</h1>
+    <p>테이블: {{ order.table.name }}</p>
+    <p>총 가격: {{ order.total_price }}원</p>
+    <p>상태: {{ order.status }}</p>
+</body>
+</html>
